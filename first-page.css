@@ -1,0 +1,28 @@
+body{
+    padding: 23px 52px;
+    background-color: black;
+    color: white;
+}
+.heading{
+    color:goldenrod;
+    text-align: center;
+}
+.heading h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.first-section{
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    border-radius: 4px;
+    padding: 12px 19px;
+    margin: 60px 0px 85px 0px;
+}
+.hero{
+    display: inline;
+}
+#tag{
+    color: blueviolet;
+}
