@@ -28,6 +28,11 @@ h1::after{
 .first-section:hover{
     height: 346px;
 }
+#hero-link{
+    position: fixed;
+    left: 565px;
+    top: 102px;
+}
 .hero{
     width: 45%;
     padding-left: 3%;
@@ -42,6 +47,21 @@ h1::after{
 }
 #tag{
     color: blueviolet;
+}
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin: 43px 0px;
+}
+td{
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    width: 3%;
+    height: 30px;
+}
+th{
+    border-right: 2px solid white;
+    width: 3%;
 }
 li:nth-child(2n){
     color: goldenrod;
