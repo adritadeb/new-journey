@@ -3,8 +3,20 @@ body{
     background-color: black;
     color: white;
 }
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 0px 120px;
+    font-size: 25px;
+}
+nav li a{
+    text-decoration: none;
+    color: goldenrod;
+}
 .heading{
-    color:goldenrod;
+    color: goldenrod;
     text-align: center;
 }
 .heading h1{
@@ -63,6 +75,6 @@ th{
     border-right: 2px solid white;
     width: 3%;
 }
-li:nth-child(2n){
+.orderedlist li:nth-child(2n){
     color: goldenrod;
 }

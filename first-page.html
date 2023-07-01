@@ -9,6 +9,16 @@
 </head>
 <body>
     <section>
+        <nav>
+            <ul>
+                <li><a href="second-page.html">2nd</a></li>
+                <li><a href="third-page.html">3rd</a></li>
+                <li><a href="second-page.html">2nd</a></li>
+                <li><a href="third-page.html">3rd</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
         <div class="heading">
             <h1>A memorable comeback</h1>
             <h2>after <strong>8 Months</strong></h2>
@@ -54,7 +64,7 @@
     </section>
     <section>
         Here I have learned about 
-        <ol>
+        <ol class="orderedlist">
             <li>Html</li>
             <li>Css</li>
             <li>Git</li>
@@ -68,14 +78,19 @@
     <section>
         <h3>For details please fill-up the following form...</h3>
         <form>
-            <div>
-                <b> Name:</b>
-                <input type="text" name="name" id="">
-            </div>
-            <div>
-                <b> Email:</b>
-                <input type="email" name="email" id="">
-            </div>
+            <lebel> Name:</lebel>
+            <input type="text" name="name" id="" placeholder="enter your name"><br>
+            <label> Email:</label>
+            <input type="email" name="email" id="" placeholder="enter your email"><br>
+            <textarea name="" id="" cols="80" rows="5"></textarea>
+            <fieldset>
+                <legend>select</legend>
+                <label for="text">Text:</label>
+                <input type="checkbox" name="check" id="">
+                <input type="checkbox" name="check" id="">
+                <input type="radio" name="check" id="">
+                <input type="radio" name="check" id="">
+            </fieldset>
             <button>Submit</button>
         </form>
     </section>
