@@ -1,15 +1,30 @@
 body{
     padding: 23px 52px 0px 52px;
-    background-color: black;
-    color: white;
 }
 nav ul{
     display: flex;
 }
-nav li{
+.option{
+    display: none;
+    position: absolute;
+    background-color: rgba(137, 43, 226, 0.863);
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+.select{
+    list-style: none;
+    font-size: 25px;
+    padding: 0px 120px;
+}
+.select:hover>ul{
+    display: block;
+}
+.navbar{
     list-style: none;
     padding: 0px 120px;
     font-size: 25px;
+    cursor: pointer;
 }
 nav li a{
     text-decoration: none;

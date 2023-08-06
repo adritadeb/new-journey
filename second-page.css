@@ -1,0 +1,44 @@
+.box{
+    border: 122px solid yellow;
+    width: 35px;
+    margin-bottom: 45px;
+    transform: scale(0.9) rotate(35deg) translate(50px, 25px);
+    transition: width 1s ease-in-out 0.5s;
+}
+.box:hover{
+    width: 300px;
+}
+.box-1{
+    background-color: green;
+    width: 150px;
+    height: 90px;
+}
+.box-2{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: sliding 2s infinite;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes sliding{
+    from{
+        background-color: orange;
+        border: 2px solid orange;
+        left: 0;
+        transform: scale(0.4);
+    }
+    50%{
+        background-color: orangered;
+        border: 2px solid orangered;
+        left: 24px;
+        top: 9px;
+        transform: scale(0.75);
+    }
+    to{
+        background-color: red;
+        border: 2px solid red;
+        left: 48px;
+        top: 18px;
+    }
+};
