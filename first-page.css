@@ -1,5 +1,7 @@
 body{
     padding: 23px 52px 0px 52px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 nav ul{
     display: flex;
