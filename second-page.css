@@ -33,7 +33,7 @@
         border: 2px solid orangered;
         left: 24px;
         top: 9px;
-        transform: scale(0.75);
+        transform: skew(10deg);
     }
     to{
         background-color: red;

@@ -5,6 +5,7 @@ body{
 }
 nav ul{
     display: flex;
+    justify-content:start;
 }
 .option{
     display: none;
@@ -102,4 +103,50 @@ th{
 }
 .orderedlist li:nth-child(2n){
     color: goldenrod;
+}
+.orderedlist{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.orderedlist div{
+    flex-grow: 1;
+}
+.f1st{
+    order: 3;
+}
+.s1st{
+    order: 2;
+}
+.t1st{
+    order: 1;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 20px 0px;
+}
+.food img{
+    width: 25%;
+}
+@media screen and (max-width:700px) {
+    .food{
+        background-color: powderblue;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:900px) {
+    .food{
+        background-color: plum;
+        overflow: scroll;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(3, 250px);
+        grid-gap: 20px 50px;
+        line-height: 1.6;
+    }
 }
